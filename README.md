@@ -26,13 +26,14 @@ pip install -r requirements.txt
 export FLASK_APP=app.py
 ```
 
-## Run the app
+## Run the app and the client script
+
+6. Fire up the flask app
 ```
 flask run
 ```
 
-## Run a script that calls the app
-In a new terminal window
+7. In a new terminal window, run the script that calls the app
 ```
 python3 client.py
 ```
